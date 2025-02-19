@@ -11,7 +11,7 @@ int main() {
     for (int i = 0; i < 32; i++) { // 8 estados x 4 cidades cada
         printf("\nCadastro da carta %d:\n", i + 1);
         printf("Codigo (ex: A01, B02): ");
-        scanf("%s", codigo);
+        scanf("%s", &codigo);
         printf("Populacao: ");
         scanf("%d", &populacao);
         printf("Area (km2): ");
